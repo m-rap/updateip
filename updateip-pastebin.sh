@@ -1,6 +1,6 @@
 #!/bin/bash
 
-log_path="~/.local/share/updateip"
+log_path="$HOME/.local/share/updateip"
 mkdir -p $log_path
 log_path="$log_path/updateip.log"
 today=`date +%Y%m%d%H%M`
